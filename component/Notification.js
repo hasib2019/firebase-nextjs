@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { messaging, getToken, onMessage } from "../firebase"; // adjust if path is different
 
-const vapidKey = "YOUR_VAPID_KEY_FROM_FIREBASE_CONSOLE";
+const vapidKey = "BIy9-XOCRDdLErp-TJY_i0hTx0NnNiM_wpNSVu4C70so5e5pKFrc_U2D25kw27YG_PTFzQekcgvNMNqTzphV1_M";
 
 export default function FirebaseNotification() {
   useEffect(() => {
